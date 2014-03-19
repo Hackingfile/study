@@ -123,7 +123,7 @@ public class NamooConfirmServlet extends HttpServlet {
 		writer.println("</table>");
 		writer.println("<br>");
 		writer.println(" <input type='button' onclick ='history.back();' id='btn1' value='수정'></button>");
-		writer.println(" <input type ='submit' id='btn2' value ='신청완료'>");
+		writer.println(" <input type ='submit' id='btn2'  value ='신청완료'>");
 		writer.println("</form>");
 		writer.println(" ");
 
