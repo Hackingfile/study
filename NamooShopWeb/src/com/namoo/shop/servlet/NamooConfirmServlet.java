@@ -103,7 +103,7 @@ public class NamooConfirmServlet extends HttpServlet {
 			
 		}
 		
-		writer.println("</table>");
+		writer.println("</table> ");
 		writer.println("<br>");
 		writer.println("<span id = 'total'> 주문 금액 : " + totalPrice + "원</span>");
 
@@ -113,7 +113,7 @@ public class NamooConfirmServlet extends HttpServlet {
 		writer.println("<h2>주문정보 확인</h2>");
 		writer.println("<table>");
 		writer.println(" <tr>");
-		writer.println(" <td>결제방법</td>");
+		writer.println(" <td>결제 방법</td>");
 		writer.println("<td>"+pay+"</td> ");
 		writer.println(" </tr> ");
 		writer.println(" <tr>");
@@ -127,7 +127,7 @@ public class NamooConfirmServlet extends HttpServlet {
 		writer.println("</form>");
 		writer.println(" ");
 
-		writer.println("</body>");
+		writer.println("</body>  ");
 		writer.println("</html>");
 		writer.println("");
 		writer.println("");
