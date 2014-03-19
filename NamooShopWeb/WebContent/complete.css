@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+#confirm{
+	
+	width : 90px;
+	height : 35px;
+}
+
+#mes{
+	font-style : italic;
+}
+
+.area{
+	margin : 150px auto;
+	width : 100%;
+	text-align: center;
+}
+
